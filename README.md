@@ -1,5 +1,5 @@
 # CPNT260 - Final Project
-## Team: *insert team name*
+## Team: School Shame
 - Haley Dickson
 - Sam Singh
 - Preetpal Dhaliwal
