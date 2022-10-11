@@ -3,6 +3,10 @@
   margin: 0px;
 }
 
+section{
+display: inline-block;
+}
+
 .cards {
   width: 20%;
   margin: 20px;
@@ -12,18 +16,20 @@
   
 }
 
+.name {
+  text-align: center;
+  padding: 20px;
+  letter-spacing: 4px;
+}
+
 .image img {
   width: 100%;
 }
 
-.name {
-  text-align: center;
-  padding-top: 20px;
-}
-
 .tagline {
   text-align: center;
-  margin: 0;
+  padding: 15px;
+  font-size: 18px;
 }
 
 button {
