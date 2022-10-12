@@ -1,79 +1,88 @@
-
-body{
-  margin: 0;
+body {
+  margin: 3rem;
   padding: 0;
-  background: linear-gradient(150deg, rgba(248, 187, 1, 0.595) 5%,
-        rgb(6, 4, 90) 100%);
+  min-height: 100vh;
+  display: flex;
+  background: linear-gradient(190deg, rgb(0, 0, 0) 9%,
+        rgba(28, 4, 63, 0.777) 60%);
         display: flex;
         justify-content: center;
-        align-items: center;
-        min-height: 100vh;
-}
-
-.gallery{
-  width: 100%;
-  margin: 50px 0;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-self: center;
-
-  
-  
-}
-
-.cards {
-  width: 20%;
-  margin: 15px;
-  box-sizing: border-box;
-  float: left;
-  text-align: center;
-  padding-top: 10px;
-  display: f;
-
-  border-radius: 5px;
-  box-shadow: 4px 4px 10px rgb(0, 0, 0);
-  background-color: rgb(228, 209, 228);
+        align-items: center;      
 }
 
 h1 {
+  margin: 4rem;
   text-align: center;
-  padding: 20px;
-  letter-spacing: 7px;
+  color: #9f97c5;
+  font-size: 45px;
 }
+
+.gallery {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 3rem;
+}
+
+.cards {
+  width: 20rem;
+  height: 40rem;
+  text-align: center;
+
+  border-radius: 5px;
+  box-shadow: 4px 4px 10px rgb(0, 0, 0);
+  background-color: #282b71;
+}
+
+h2 {
+  padding: 20px;
+  text-align: center;
+  letter-spacing: 7px;
+  font-size: 30px;
+  color: #9f97c5;
+}
+  
 
 img {
   margin: 0;
   width: 100%;
-  height: initial;
+  height: 20rem;
   display: block;
   text-align: center;
 }
 
 p {
-  text-align: center;
   padding: 10px;
+  margin: 20px 25px 40px 25px;
   font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  color: white;
 }
 
-button {
-  margin-top: 20px;
-  margin-bottom: 15px;
+.btn {
   padding: 10px;
-  background-color: white;
-  border: 0.8px solid rgb(8, 4, 44);
-  border-radius: 15px;
+  margin: 50px;
+  border: 5px;
+  border-style: double;
+  border-color: black;
+  border-radius: 10px;
 
-}
+  background-color: #452045;
+  color: #9f97c5;
 
-.btn:hover {
-  background-color: rgb(62, 27, 91);
-  color: rgb(255, 255, 255);
-  transition: .8s;
-}
-
-a {
-  text-decoration: none;
-  color: black;
   
+}
+.btn:hover {
+  background-color:#9f97c5;
+  transition: .7s;
+}
+
+a:hover {
+  color: white;
+}
+a { 
+  text-decoration: none;
 }
