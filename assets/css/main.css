@@ -82,7 +82,8 @@ li a:hover {
   align-items: center;
 
   /* background styles */
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/astronaut-floating.png');
+  background-image: url('../assets/images/astronaut-floating.png');
+/*   linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), */
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
