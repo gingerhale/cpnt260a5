@@ -54,9 +54,13 @@
     max-width:70%;
   }
   
-  .container ,info a{
+  .container .info a{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: inline-block;
+    /* border-radius: 10px; */
     font-size: 1.5em;
+    /* padding: 01.5em; */
+    margin-top: 1em;
     text-decoration: none;
   }
   
