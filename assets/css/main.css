@@ -1,0 +1,155 @@
+/* root */
+* {
+  /* box model */
+  padding: 0;
+  margin: 0;
+
+  /* text decoration for whole page */
+  text-decoration: none;
+}
+
+html{
+  box-sizing: border-box;
+}
+
+body {
+  /* typography */
+  font-family: 'Lexend Deca', Tahoma, Verdana, sans-serif;
+  /* line height (whole page) */
+  line-height: 1.7rem;
+}
+
+
+
+nav {  
+/* color */
+  background-color: black;
+
+  /* box model */
+  padding: 1rem;
+  width: 100%;
+
+  /* flexbox */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+
+
+
+/* navigation list */
+.nav-links{
+  /* list stle alterations */
+  list-style: none;
+  display: flex;
+}
+
+/* nav list items */
+.nav-item a {  
+  /* color */
+  color: #66DC85;
+
+  /* tyoography */
+  font-size: 20px;
+
+  /* display type */
+  display: inline-block;
+
+  /* box model */
+  padding: 10px 15px;
+  margin-top: 0;
+}
+
+/* nav hover*/
+li a:hover {
+  color: #FF0086 ;
+}
+
+/* main hero section */
+.hero { 
+  /* Typography */
+  text-align: center;
+  
+  /* sizing */
+  width: 100vw;
+  height: 100vh;
+
+  /* flexbox */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  /* background styles */
+  background-image:   
+  url(/assets/images/astronaut-floating.png);
+
+   /* linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),  */
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.hero-inner{
+  color: #fff;
+  max-width: 65ch;
+}
+
+.hero h1 {
+  /* Typography */
+  font-size: 70px;
+
+  /* margins */
+  margin-top: 0;
+  margin-bottom: 0.5em;
+}
+
+
+/* hero h1 */
+h1{
+  line-height: normal;
+  font-family: 'Black Ops One', Copperplate, Papyrus, fantasy; ;
+}
+
+/* hero text */
+.hero-paragraph {
+
+
+  /* typography */
+  font-size: 1.5rem;
+}
+
+/* button */
+.hero h2 {
+  /* position and sizing */
+  display: block;
+  width: 200px;
+  
+  /* box model */
+  padding: 1em;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+
+  /* typography */
+  color: black;
+  background-color: #a296ca;
+  text-decoration: none;
+  font-size: 1.5em;
+
+  /* border */
+  border: 3px solid black;
+  border-color: black;
+  border-radius: 20px;
+}
+
+
+
+
+/* hero cta hover */
+h2:hover{
+  background-color: #461f44;
+}
+
