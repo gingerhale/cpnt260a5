@@ -1,48 +1,79 @@
-*{
-  padding: 0px;
-  margin: 0px;
+
+body{
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(150deg, rgba(248, 187, 1, 0.595) 5%,
+        rgb(6, 4, 90) 100%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
 }
 
-section{
-display: inline-block;
+.gallery{
+  width: 100%;
+  margin: 50px 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-self: center;
+
+  
+  
 }
 
 .cards {
   width: 20%;
-  margin: 20px;
-  background-color: rgb(228, 209, 228);
+  margin: 15px;
+  box-sizing: border-box;
+  float: left;
+  text-align: center;
+  padding-top: 10px;
+  display: f;
+
   border-radius: 5px;
   box-shadow: 4px 4px 10px rgb(0, 0, 0);
-  
+  background-color: rgb(228, 209, 228);
 }
 
-.name {
+h1 {
   text-align: center;
   padding: 20px;
-  letter-spacing: 4px;
+  letter-spacing: 7px;
 }
 
-.image img {
+img {
+  margin: 0;
   width: 100%;
+  height: initial;
+  display: block;
+  text-align: center;
 }
 
-.tagline {
+p {
   text-align: center;
-  padding: 15px;
-  font-size: 18px;
+  padding: 10px;
+  font-size: 20px;
 }
 
 button {
   margin-top: 20px;
   margin-bottom: 15px;
-  padding: 5px;
+  padding: 10px;
   background-color: white;
   border: 0.8px solid rgb(8, 4, 44);
   border-radius: 15px;
+
 }
 
-button:hover {
+.btn:hover {
   background-color: rgb(62, 27, 91);
   color: rgb(255, 255, 255);
   transition: .8s;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  
 }
