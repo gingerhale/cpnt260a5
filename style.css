@@ -60,7 +60,7 @@
   .container .info a{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     display: inline-block;
-    /* border-radius: 10px; */
+    border-radius: 12px;
     font-size: 1.5em;
     padding: 0.4em;
     margin-top: 1em;
