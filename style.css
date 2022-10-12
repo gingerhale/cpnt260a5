@@ -59,7 +59,7 @@
     display: inline-block;
     /* border-radius: 10px; */
     font-size: 1.5em;
-    /* padding: 01.5em; */
+    padding: 0.4em;
     margin-top: 1em;
     text-decoration: none;
   }
@@ -77,4 +77,5 @@
   
   .button-cta:hover {
     background-color: white;
+    color:orangered;
   }
