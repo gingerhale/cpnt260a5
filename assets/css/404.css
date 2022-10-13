@@ -1,0 +1,139 @@
+/* root */
+* {
+  /* box model */
+  padding: 0;
+  margin: 0;
+
+  /* text decoration for whole page */
+  text-decoration: none;
+}
+
+html{
+  box-sizing: border-box;
+}
+
+/************** Sticky Footer */
+body {
+  display: flex;
+  flex-direction: column;
+   min-height: 100vh;
+   margin: 0;
+ }
+ 
+ main {
+ flex: auto;
+ }
+
+
+/* main hero section */
+.hero-404 { 
+  /* Typography */
+  text-align: center;
+  
+  /* sizing */
+  width: 100vw;
+  height: 100vh;
+
+  /* flexbox */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  /* background styles */
+  background-image:   
+  url(/assets/images/astronaut-floating.png);
+
+   /* linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),  */
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.hero-inner-404{
+  color: #fff;
+  max-width: 65ch;
+}
+
+.hero-404 h1 {
+  /* Typography */
+  font-size: 70px;
+
+  /* margins */
+  margin-top: 0;
+  margin-bottom: 0.5em;
+}
+
+
+/* hero h1 */
+h1{
+  line-height: normal;
+  font-family: 'Black Ops One', Copperplate, Papyrus, fantasy; ;
+}
+
+/* hero text */
+.hero-paragraph-404 {
+  /* typography */
+  font-size: 1.5rem;
+}
+
+
+/* button stlying and  */
+.hero-404 h2 {
+  /* position and sizing */
+  display: block;
+  width: 200px;
+  
+  /* box model */
+  padding: 1em;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+
+  /* typography */
+  color: black;
+  background-color: #a296ca;
+  text-decoration: none;
+  font-size: 1.5em;
+
+  /* border */
+  border: 3px solid black;
+  border-color: black;
+  border-radius: 20px;
+}
+
+/* hero cta hover */
+h2:hover{
+  background-color: #461f44;
+}
+
+
+
+footer li {
+  display: inline-block;
+  list-style: none;
+  margin: 10px;
+  
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+
+footer {
+  background-color: #282b71;
+  color: #9f97c5;
+  text-align: center;
+}
+
+.footer-copyright {
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #9f97c5;
+  color: white;
+}
+.footer-copyright p {
+  margin-top: 15px;
+}

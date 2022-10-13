@@ -1,0 +1,255 @@
+/* root */
+* {
+  /* box model */
+  padding: 0;
+  margin: 0;
+
+  /* text decoration for whole page */
+  text-decoration: none;
+}
+
+html{
+  box-sizing: border-box;
+}
+
+/************** Sticky Footer */
+body {
+  display: flex;
+  flex-direction: column;
+   min-height: 100vh;
+   margin: 0;
+ }
+ 
+ main {
+ flex: auto;
+ }
+
+/* Saturn form hero section */
+.hero-form{ 
+  /* Typography */
+  text-align: center;
+  
+  /* sizing */
+  width: 100vw;
+  height: 100vh;
+
+  /* flexbox */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+ 
+  /* background image alignment and styles */
+  background-image: url('../assets/images/space-launch2.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+
+/* saturn form heading */
+.hero-form h1{
+  /* typograohy */
+  font-size: 36px;
+}
+
+
+/* Saturn form page hero paragraph */
+.hero-form p{
+  /* padding */
+  padding: 2rem;
+}
+
+
+/* Saturn form page hero text */
+.hero-inner-form{
+  /* typography */
+  color: white;
+
+  /* text background translucent background */
+  background: rgba(0,0,0,0.5);
+
+  /* max character width for hero text */
+  max-width: 60ch;
+
+  /* textbox padding */
+  padding: 2rem;
+}
+
+
+/* this lines up the loaction and postal code section*/
+.locale{
+  text-align: left;
+}
+
+
+/* form styling DO NOT TOUCH */
+#fs-frm input,
+#fs-frm select,
+#fs-frm textarea,
+#fs-frm fieldset,
+#fs-frm optgroup,
+#fs-frm label,
+#fs-frm #card-element:disabled {
+  font-family: inherit;
+  font-size: 100%;
+  color: inherit;
+  border: none;
+  border-radius: 0;
+  display: block;
+  width: 96.5%;
+  padding: 0;
+  margin: 0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+#fs-frm label,
+#fs-frm legend,
+#fs-frm ::placeholder {
+  font-size: 1rem;
+  margin-bottom: .5rem;
+  padding-top: .2rem;
+  display: flex;
+  align-items: baseline;
+}
+
+/* border, padding, margin, width */
+#fs-frm input,
+#fs-frm select,
+#fs-frm textarea,
+#fs-frm #card-element {
+  border: 1px solid rgba(0,0,0,0.3);
+
+  /* background color for boxes resting */
+  background-color: #a296ca;
+  padding: .75em 1rem;
+  margin-bottom: 1.5rem;
+}
+#fs-frm input:focus,
+#fs-frm select:focus,
+#fs-frm textarea:focus {
+  /*  */
+  background-color: #2b1d5a;
+  outline-style: solid;
+  outline-width: thin;
+  outline-color: gray;
+  outline-offset: -1px;
+}
+#fs-frm [type="text"],
+#fs-frm [type="email"] {
+  width: 96.5%;
+}
+
+#fs-frm [type="button"],
+#fs-frm [type="submit"],
+#fs-frm [type="reset"] {
+  width: auto;
+  cursor: pointer;
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+}
+#fs-frm [type="button"]:focus,
+#fs-frm [type="submit"]:focus,
+#fs-frm [type="reset"]:focus {
+  outline: none;
+}
+#fs-frm [type="submit"],
+#fs-frm [type="reset"] {
+  margin-bottom: 0;
+}
+#fs-frm select {
+  text-transform: none;
+}
+
+#fs-frm [type="checkbox"] {
+  -webkit-appearance: checkbox;
+  -moz-appearance: checkbox;
+  appearance: checkbox;
+  display: inline-block;
+  width: auto;
+  margin: 0 .5em 0 0 !important;
+}
+
+#fs-frm [type="radio"] {
+  -webkit-appearance: radio;
+  -moz-appearance: radio;
+  appearance: radio;
+}
+
+/* address, locale */
+#fs-frm fieldset.locale input[name="city"],
+#fs-frm fieldset.locale select[name="state"],
+#fs-frm fieldset.locale input[name="postal-code"] {
+  display: inline;
+ 
+}
+#fs-frm fieldset.locale input[name="city"] {
+  width: 65%;
+}
+#fs-frm fieldset.locale select[name="state"],
+#fs-frm fieldset.locale input[name="postal-code"] {
+  width: 20%;
+}
+#fs-frm fieldset.locale input[name="city"],
+#fs-frm fieldset.locale select[name="state"] {
+  margin-right: 3%;
+}
+
+
+.features{
+  background-color: #2b1d5a;
+  color: white;
+  padding: 60px 45px;
+  display: flex:
+}
+
+.features-inner{
+  max-width: 1200px;
+  margin: 0 auto; 
+  display: grid;
+  grid-template-columns: repeat( auto-fill, minmax(275px, 1fr));
+  grid-column-gap: 45px;
+  grid-row-gap: 45px;
+}
+
+.feature-item{
+  background-color: black;
+  padding: 1rem;
+}
+
+.feature-title{
+  padding: 0.5rem;
+}
+
+
+footer li {
+  display: inline-block;
+  list-style: none;
+  margin: 10px;
+  
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+
+footer {
+  background-color: #282b71;
+  color: #9f97c5;
+  text-align: center;
+}
+
+.footer-copyright {
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #9f97c5;
+  color: white;
+}
+.footer-copyright p {
+  margin-top: 15px;
+}
+
