@@ -1,3 +1,6 @@
+
+/********************* Main Site ********************/
+
 /* root */
 * {
   /* box model */
@@ -12,13 +15,8 @@ html{
   box-sizing: border-box;
 }
 
-body {
-  /* typography */
-  font-family: 'Lexend Deca', Tahoma, Verdana, sans-serif;
-  /* line height (whole page) */
-  line-height: 1.7rem;
-}
 
+/************* 404 Page **************************/
 
 /* main hero section */
 .hero-404 { 
@@ -101,6 +99,10 @@ h1{
 h2:hover{
   background-color: #461f44;
 }
+
+
+
+/************** Saturn Form Page ****************/
 
 /* Saturn form hero section */
 .hero-form{ 
@@ -276,6 +278,121 @@ h2:hover{
 #fs-frm fieldset.locale select[name="state"] {
   margin-right: 3%;
 }
+
+
+.features{
+  background-color: #2b1d5a;
+  color: white;
+  padding: 60px 45px;
+  display: flex:
+}
+
+.features-inner{
+  max-width: 1200px;
+  margin: 0 auto; 
+  display: grid;
+  grid-template-columns: repeat( auto-fill, minmax(275px, 1fr));
+  grid-column-gap: 45px;
+  grid-row-gap: 45px;
+}
+
+.feature-item{
+  background-color: black;
+  padding: 1rem;
+}
+
+.feature-title{
+  padding: 0.5rem;
+}
+
+
+/************************** Team Page *************************************/
+
+.team-page {
+  margin: 3rem;
+  padding: 0;
+  min-height: 100vh;
+  display: flex;
+  background: linear-gradient(190deg, rgb(0, 0, 0) 9%,
+        rgba(28, 4, 63, 0.777) 60%);
+        display: flex;
+        justify-content: center;
+        align-items: center;      
+}
+
+.team-h1 {
+  margin: 4rem;
+  text-align: center;
+  color: #9f97c5;
+  font-size: 45px;
+}
+
+.team-gallery {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 3rem;
+}
+
+.team-cards {
+  width: 20rem;
+  height: 40rem;
+  text-align: center;
+
+  border-radius: 5px;
+  box-shadow: 4px 4px 10px rgb(0, 0, 0);
+  background-color: #282b71;
+}
+
+.names {
+  padding: 20px;
+  text-align: center;
+  letter-spacing: 7px;
+  font-size: 30px;
+  color: #9f97c5;
+}
+  
+
+.team-images {
+  margin: 0;
+  width: 100%;
+  height: 20rem;
+  display: block;
+  text-align: center;
+}
+
+.team-paragraphs{
+  padding: 10px;
+  margin: 20px 25px 40px 25px;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  color: white;
+}
+
+.team-btn {
+  padding: 10px;
+  margin: 50px;
+  border: 5px;
+  border-style: double;
+  border-color: black;
+  border-radius: 10px;
+
+  background-color: #452045;
+  color: #9f97c5;
+
+  text-decoration: none;
+}
+.team-btn:hover {
+  background-color:#9f97c5;
+  transition: .7s;  
+  color: white;
+}
+
+
+
 
 
 
