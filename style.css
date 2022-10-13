@@ -15,7 +15,7 @@
   }
   
   p {
-    color:#edc8ff;
+    color:#a296ca;
     
     font-family: 'Bebas Neue', serif, cursive;
   }
@@ -76,11 +76,13 @@
     display: inline-block;
     padding: 0.2em 0.3em;
     width: auto;
+
+    transition: 0.5s ease;
   }
   
   .button-cta:hover {
-    background-color: white;
-    color:orangered;
+    background-color: rgb(255, 255, 255);
+    color:#3acac9;
   }
 
   @media screen and (max-width: 768px) {
