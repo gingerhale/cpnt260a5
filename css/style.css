@@ -1,5 +1,5 @@
 body {
-  background: linear-gradient(230deg, rgb(0, 0, 0) 20%,rgb(24, 0, 61) 60%);
+  background: linear-gradient(0.20turn, #442057, #000000, #181b68);
   display: flex;
   justify-content: center;
   align-items: center; 
@@ -25,11 +25,11 @@ a, a:visited {
 }
 
 a:hover h2 {
+  background-color: #9f97c5;
   color: rgb(0, 0, 0);
 }
 
 a:hover figcaption {
-  background-color: white;
   color: rgba(24, 20, 137, 0.837);
 }
 
