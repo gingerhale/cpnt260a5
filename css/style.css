@@ -9,9 +9,10 @@ main {
 flex: auto;
 }
 
-ul {
-  display: flex;
+footer li {
+  display: inline-block;
   list-style: none;
+  margin: 10px;
   
 }
 a {
@@ -23,11 +24,16 @@ footer {
   background-color: #282b71;
   color: #9f97c5;
   text-align: center;
-  padding: 1.5rem;
-  
-  box-shadow:
-    0 -1px 1px #0000000d,
-    0 -2px 2px #0000000d,
-    0 -4px 4px #0000000d,
-    0 -8px 8px #0000000d;;
+}
+
+.footer-copyright {
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #9f97c5;
+  color: white;
+}
+.footer-copyright p {
+  margin-top: 15px;
 }
