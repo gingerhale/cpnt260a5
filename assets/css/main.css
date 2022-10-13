@@ -1,6 +1,5 @@
 
 /********************* Main Site ********************/
-
 /* root */
 * {
   /* box model */
@@ -10,10 +9,22 @@
   /* text decoration for whole page */
   text-decoration: none;
 }
-
+/* Idk why we add this by all the sites tell me to */
 html{
   box-sizing: border-box;
 }
+
+/************** Sticky Footer ********************/
+body {
+  display: flex;
+  flex-direction: column;
+   min-height: 100vh;
+   margin: 0;
+ }
+ 
+ main {
+ flex: auto;
+ }
 
 
 /************* 404 Page **************************/
@@ -391,6 +402,35 @@ h2:hover{
   color: white;
 }
 
+/****************** Footer *****************/
+footer li {
+  display: inline-block;
+  list-style: none;
+  margin: 10px;
+  
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+
+footer {
+  background-color: #282b71;
+  color: #9f97c5;
+  text-align: center;
+}
+
+.footer-copyright {
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #9f97c5;
+  color: white;
+}
+.footer-copyright p {
+  margin-top: 15px;
+}
 
 
 
