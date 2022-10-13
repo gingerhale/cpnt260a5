@@ -1,1 +1,88 @@
+body {
+  margin: 3rem;
+  padding: 0;
+  min-height: 100vh;
+  display: flex;
+  background: linear-gradient(190deg, rgb(0, 0, 0) 9%,
+        rgba(28, 4, 63, 0.777) 60%);
+        display: flex;
+        justify-content: center;
+        align-items: center;      
+}
 
+h1 {
+  margin: 4rem;
+  text-align: center;
+  color: #9f97c5;
+  font-size: 45px;
+}
+
+.gallery {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 3rem;
+}
+
+.cards {
+  width: 20rem;
+  height: 40rem;
+  text-align: center;
+
+  border-radius: 5px;
+  box-shadow: 4px 4px 10px rgb(0, 0, 0);
+  background-color: #282b71;
+}
+
+h2 {
+  padding: 20px;
+  text-align: center;
+  letter-spacing: 7px;
+  font-size: 30px;
+  color: #9f97c5;
+}
+  
+
+img {
+  margin: 0;
+  width: 100%;
+  height: 20rem;
+  display: block;
+  text-align: center;
+}
+
+p {
+  padding: 10px;
+  margin: 20px 25px 40px 25px;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  color: white;
+}
+
+.btn {
+  padding: 10px;
+  
+  border: 5px;
+  border-style: double;
+  border-color: black;
+  border-radius: 10px;
+
+  background-color: #452045;
+  color: #9f97c5;
+
+  
+}
+.btn:hover {
+  background-color:#9f97c5;
+  transition: .7s;
+}
+
+a:hover {
+  color: white;
+}
+a { 
+  text-decoration: none;
+}
