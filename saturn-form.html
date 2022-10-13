@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>School Shame</title>
+  <link rel="stylesheet" href="assets/css/main.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Lexend+Deca&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <section class="hero-form">
+      <div class="hero-inner-form">
+        <h1>Send Your Name to Saturn</h1>
+        <p>We are taking reservations now. We the next to have your name land on Saturn!</p>
+        <form id="fs-frm" name="registration-form" accept-charset="utf-8" action="https://formspree.io/f/{form_id}"
+          method="post">
+          <fieldset id="fs-frm-inputs">
+            <label for="full-name">Full Name</label>
+            <input type="text" name="name" class="full-name" placeholder="First and Last" required="">
+            <label for="email-address">Email Address</label>
+            <input type="email" name="_replyto" class="email-address" placeholder="email@domain.tld" required="">
+            <label for="street-address">Street Address</label>
+            <input type="text" name="street" class="street-address" placeholder="Street" required="">
+            <fieldset class="locale">
+              <legend>Location</legend>
+              <input type="text" name="city" placeholder="City" required="">
+              <select name="state" required="">
+                <option value="" selected="" disabled="">Province</option>
+                <option value="AB">Alberta</option>
+                <option value="BC">British Columbia</option>
+                <option value="MB">Manitoba</option>
+                <option value="NB">New Brunswick</option>
+                <option value="NL">Newfoundland and Labrador</option>
+                <option value="NT">Northwest Territories</option>
+                <option value="NS">Nova Scotia</option>
+                <option value="NU">Nunavut</option>
+                <option value="ON">Ontario</option>
+                <option value="PE">Prince Edward Island</option>
+                <option value="QC">Quebec</option>
+                <option value="Saskatchewan">Saskatchewan</option>
+                <option value="YT">Yukon</option>
+              </select>
+              <input type="text" name="postal-code" placeholder="A1B2C3" required="">
+            </fieldset>
+            <label for="note">Note</label>
+            <textarea rows="2" name="note" class="note" placeholder="Include any additional information"></textarea>
+            <input type="hidden" name="_subject" class="email-subject" value="Registration Form Submission">
+          </fieldset>
+          <input type="submit" value="Register" >
+        </form>
+      </div>
+    </section>
+  </header>
+
+</body>
+
+</html>
