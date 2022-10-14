@@ -1,6 +1,7 @@
 * {
     padding: 0;
     margin: 0;
+
     box-sizing: border-box;
 }
 
@@ -19,16 +20,18 @@ a{
 
 .navbar{
     min-height: 85px;
+
     display: flex;
     justify-content: space-between;
     align-items: center;
+
     padding:0 20px;
-/*     font-weight:bold; */
 }
  .nav-menu{
     display: flex;
     justify-content: space-between;
     align-items: center;
+
     gap: 60px;
  }
 
@@ -51,11 +54,11 @@ a{
 
  .bar{
     display: block;
+
     width: 25px;
     height: 3px;
     margin: 5px auto;
-    -webkit-transition: all 0.3s ease-in-out;
-    transition: all 0.3s ease-in-out;
+    
     background-color: white;
  }
 
@@ -66,13 +69,16 @@ a{
 
     .nav-menu{
         position: fixed;
+        flex-direction: column;
+        text-align: center;
+
         left: -100%;
         top: 70px;
         gap: 0;
-        flex-direction: column;
-        background-color: #2b1d5a;
         width: 100%;
-        text-align: center;
+       
+        background-color: #2b1d5a;
+        
         transition: 0.3s;
     }
 
