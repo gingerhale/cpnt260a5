@@ -12,6 +12,9 @@ body {
 
    background: linear-gradient(190deg, rgb(0, 0, 0) 9%,
         rgba(28, 4, 63, 0.777) 60%);
+
+    /* font style */
+    font-family: 'Quicksand', sans-serif;
  }
  /* navbar */
  header{
