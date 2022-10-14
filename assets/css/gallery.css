@@ -81,7 +81,7 @@ figure {
 figure img {
   /* resize the image to be equal dimensions */
   display: block;
-  width: 50ch;
+  width: 49.9ch;
   height: 35ch;
 }
 
