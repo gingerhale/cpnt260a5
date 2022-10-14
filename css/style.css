@@ -1,0 +1,71 @@
+body {
+  background: linear-gradient(0.20turn, #442057, #000000, #181b68);
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  margin: 0;
+  padding: 5rem;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+}
+
+a {
+  text-decoration: none;
+  width: fit-content;
+  margin: 0;
+
+}
+a, a:visited {
+  color: black;
+}
+
+a:hover h2 {
+  background-color: #9f97c5;
+  color: rgb(0, 0, 0);
+}
+
+a:hover figcaption {
+  color: rgba(24, 20, 137, 0.837);
+}
+
+h2 {
+margin: 0;
+padding: 8px;
+text-align: center;
+font-size: 30px;
+color: rgba(24, 20, 137, 0.837);
+background-color: #f5f5f5;
+}
+
+a:hover figure {
+  background-color: #ffffff;
+}
+
+figure {
+  max-width: 50ch;
+  height: 55ch;
+  margin: 0;
+
+  border: 1px solid black;
+  box-shadow: 0 1px 1px rgb(0, 0, 0, .2),0 2px 2px rgb(0, 0, 0, .2),0 4px 4px rgb(0, 0, 0, .2),0 8px 8px rgb(0, 0, 0, .2);
+  background-color: #9f97c5;
+}
+
+figure img {
+  display: block;
+  width: 50ch;
+  height: 35ch;
+}
+
+figcaption {
+  margin: 0;
+  padding: 20px;
+  
+  text-align: start;
+  font-size: 20px;
+}
