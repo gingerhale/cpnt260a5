@@ -1,22 +1,4 @@
 
-/*** Main Site Stuff ***/
-
-/* root */
-* {
-  /* box model */
-  padding: 0;
-  margin: 0;
-
-  /* text decoration for whole page */
-  text-decoration: none;
-}
-
-html{
-  box-sizing: border-box;
-}
-
-/* **********hero section********** */
-
 * {
   padding: 0;
   margin: 0;
