@@ -135,7 +135,7 @@ a{
   flex-wrap: wrap;
  
   /* background image alignment and styles */
-  background-image: url('../images/space-launch.jpg');
+  background-image: url("assets/images/space-launch.jpg");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
