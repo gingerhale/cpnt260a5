@@ -7,11 +7,19 @@ body {
    min-height: 100vh;
 
    /* box model */
-   margin: 0;
+   margin:0;
+   /* background */
+
+   background: linear-gradient(190deg, rgb(0, 0, 0) 9%,
+        rgba(28, 4, 63, 0.777) 60%);
  }
  
  main {
- flex: auto;
+  flex: auto;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
  }
 
 
@@ -20,11 +28,7 @@ body {
   padding: 0;
   min-height: 100vh;
   display: flex;
-  background: linear-gradient(190deg, rgb(0, 0, 0) 9%,
-        rgba(28, 4, 63, 0.777) 60%);
-        display: flex;
-        justify-content: center;
-        align-items: center;      
+        
 }
 
 .team-h1 {
