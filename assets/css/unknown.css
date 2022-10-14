@@ -20,11 +20,13 @@ body {
  flex: auto;
  }
 
- * {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
+body{
+  /* typography */
+  font-family: 'Quicksand', sans-serif;
+
+  line-height: 1.7rem;
+
+ }
 
 
 /* GLOBAL NAVIGATION */
@@ -47,8 +49,9 @@ a{
   justify-content: space-between;
   align-items: center;
   padding:0 20px;
-/*     font-weight:bold; */
 }
+
+
 .nav-menu{
   display: flex;
   justify-content: space-between;
@@ -57,7 +60,7 @@ a{
 }
 
 .nav-branding{
-  font-size: 18px;
+  font-size: 3rem;
 }
 
 .nav-link{
@@ -142,6 +145,9 @@ a{
 .hero-404 h1 {
   /* Typography */
   font-size: 70px;
+  font-family: 'Bebas Neue', cursive;
+
+  
 
   /* margins */
   margin-top: 0;
@@ -149,11 +155,7 @@ a{
 }
 
 
-/* hero h1 */
-h1{
-  line-height: normal;
-  font-family: 'Black Ops One', Copperplate, Papyrus, fantasy; ;
-}
+
 
 /* hero text */
 .hero-paragraph-404 {
