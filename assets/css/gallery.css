@@ -1,26 +1,27 @@
 body {
   background: linear-gradient(0.20turn, #442057, #000000, #181b68);
-  display: flex;
+  margin: 0;
+  min-height: 100vh;
+}
+
+  main {
   justify-content: center;
   align-items: center; 
-  margin: 0;
-  padding: 5rem;
-  min-height: 100vh;
+  
+  padding: 2rem;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   gap: 1rem;
-  align-items: center;
-  justify-content: center;
 }
 
-a {
+main a {
   text-decoration: none;
   width: fit-content;
   margin: 0;
 
 }
-a, a:visited {
+maina, a:visited {
   color: black;
 }
 
@@ -68,4 +69,37 @@ figcaption {
   
   text-align: start;
   font-size: 20px;
+}
+
+/* footer */
+
+footer li {
+  display: inline-block;
+  list-style: none;
+  margin: 10px;
+
+}
+
+.footer-nav a {
+  text-decoration: none;
+  color: white;
+}
+
+footer {
+  background-color: #282b71;
+  color: #9f97c5;
+  text-align: center;
+}
+
+.footer-copyright {
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #9f97c5;
+  color: white;
+}
+
+.footer-copyright p {
+  margin-top: 15px;
 }
