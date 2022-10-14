@@ -124,6 +124,8 @@ a{
   align-items: center;
 
   padding:0 20px;
+
+  font-family: 'Quicksand', sans-serif;
 }
 .nav-menu{
   display: flex;
