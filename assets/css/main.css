@@ -124,6 +124,8 @@ a{
   align-items: center;
 
   padding:0 20px;
+
+  font-family:'Quicksand', sans-serif;
 }
 .nav-menu{
   display: flex;
@@ -321,6 +323,7 @@ footer {
   background-color: #282b71;
   color: #9f97c5;
   text-align: center;
+  font-family: 'Quicksand', sans-serif;
 }
 
 .footer-copyright {
