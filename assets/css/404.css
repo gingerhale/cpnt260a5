@@ -40,7 +40,7 @@ body {
   align-items: center;
 
   /* background styles */
-  background: url('../images/astronaut-floating.png');
+  background: url('assets/images/astronaut-floating.png');
 
    /* linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),  */
   background-size: cover;
