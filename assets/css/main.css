@@ -31,6 +31,7 @@ p {
   background-size: contain;
   background-size: cover;
   background-blend-mode: multiply;
+  background-position: bottom;
   
   color: white;
 }
