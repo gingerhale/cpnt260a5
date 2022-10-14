@@ -8,50 +8,69 @@
   text-decoration: none;
 }
 
-/* STICKY FOOTER */
-body {
-  display: flex;
-  flex-direction: column;
-   min-height: 100vh;
-   margin: 0;
- }
- 
- main {
+/* MAIN FLEX */
+main{
  flex: auto;
  }
 
+
+/* STICKY FOOTER */
+body {
+  /* flexbox */
+  display: flex;
+  flex-direction: column;
+
+  /* height */
+   min-height: 100vh;
+
+   /* box model */
+   margin: 0;
+ }
+ 
+
+/* BODY TYPOGRAPHY */
 body{
-  /* typography */
   font-family: 'Quicksand', sans-serif;
-
   line-height: 1.7rem;
-
  }
 
 
-/* GLOBAL NAVIGATION */
+/***** GLOBAL NAVIGATION *****/
+/* GLOBAL NAV COLOR */
 header{
   background-color:#2b1d5a;
 }
 
+
+/* NAV LIST STYLE */
 li {
   list-style-type: none;
 }
 
+
+/* NAV LIST STYLE */
 a{
   color: white;
   text-decoration: none;
 }
 
+
+/* NAV BAR */
 .navbar{
+    /* min height */
   min-height: 85px;
+
+  /* flexbox */
   display: flex;
   justify-content: space-between;
   align-items: center;
+
+  /* box model */
   padding:0 20px;
 }
 
 
+/* NAV MENU */
 .nav-menu{
   display: flex;
   justify-content: space-between;
@@ -59,23 +78,30 @@ a{
   gap: 60px;
 }
 
+
+/* "LOGO" */
 .nav-branding{
   font-size: 3rem;
 }
 
+/* TRANSITION */
 .nav-link{
   transition: 0.7s ease;
 }
 
+/* HOVER */
 .nav-link:hover{
   color:rgb(32, 218, 184);
 }
 
+
+/* HAMBURGER STYLE */
 .hamburger{
   display: none;
   cursor: pointer;
 }
 
+/* HAMBURGER ICON */
 .bar{
   display: block;
   width: 25px;
@@ -86,6 +112,8 @@ a{
   background-color: white;
 }
 
+
+/* MEDIA QUERY */
 @media(max-width:900px){
   .hamburger{
       display:block;
@@ -113,7 +141,7 @@ a{
 }
 
 
-/* main hero section */
+/****** HERO SECTION *****/
 .hero-404 { 
   /* Typography */
   text-align: center;
@@ -137,18 +165,19 @@ a{
   background-attachment: fixed;
 }
 
+
+/* HERO TEXT */
 .hero-inner-404{
   color: #fff;
   max-width: 65ch;
 }
 
+
+/* HERO HEADING */
 .hero-404 h1 {
-  /* Typography */
+  /* typography */
   font-size: 70px;
   font-family: 'Bebas Neue', cursive;
-
-  
-
   /* margins */
   margin-top: 0;
   margin-bottom: 0.5em;
@@ -156,15 +185,14 @@ a{
 
 
 
-
-/* hero text */
+/* HERO PARAGRPH */
 .hero-paragraph-404 {
   /* typography */
   font-size: 1.5rem;
 }
 
 
-/* button stlying and  */
+/* HERO CTA */
 .hero-404 h2 {
   /* position and sizing */
   display: block;
@@ -188,13 +216,13 @@ a{
   border-radius: 20px;
 }
 
-/* hero cta hover */
+/* HERO CTA HOVER */
 h2:hover{
   background-color: #461f44;
 }
 
 
-
+/***** FOOTER *****/
 footer li {
   display: inline-block;
   list-style: none;
