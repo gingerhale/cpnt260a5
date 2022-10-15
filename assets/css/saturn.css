@@ -382,3 +382,7 @@ footer {
 .footer-copyright p {
   margin-top: 15px;
 }
+
+body {
+  margin: 0;
+}
