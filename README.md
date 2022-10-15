@@ -33,6 +33,16 @@ Tools:
 - Youtube - https://youtu.be/QmZNFnqwu74
 - Tony - https://sait-wbdv.github.io/f22-spoilers-cpnt260-a2/
 
+### Jian's Attributes
+Tools: 
+- https://fonts.google.com/specimen/Quicksand?preview.text=I%20am%20a%20Sub%20Headline&preview.text_type=custom&query=quicksan
+- w3schools - https://www.w3schools.com/css/css_background_image.asp
+- youtube - https://www.youtube.com/c/codefoxx
+- youtube - https://www.youtube.com/watch?v=4kWHW7da4U8
+
+Images:
+- Stars - https://pixabay.com/get/g03af6f05ab918d648562f8c410890801375f358824a401865f49bc215731fe767e2977e2215653cbc105670d3e7ac3b59b8d6b68daa962f4dc34e00afcc9f3f8d49e5ca5f7e9bf0b3802bfd5588d2683_1920.jpg?attachment=
+
 
 
 
