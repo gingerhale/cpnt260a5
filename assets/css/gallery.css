@@ -119,7 +119,7 @@ main a {
 
 }
 
-main, a:visited {
+card a:visited {
   /* Remove purple text colour
   after link is clicked */
   color: black;
