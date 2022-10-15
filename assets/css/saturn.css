@@ -327,7 +327,6 @@ a {
 
 /***** CARD SECTION *****/
 .features {
-  display: block;
   background-color: #2b1d5a;
   color: white;
   padding: 60px 45px;
