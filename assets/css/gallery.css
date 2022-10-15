@@ -104,7 +104,7 @@ a{
   align-items: center;
 
   /* Alight cards horizontally with gap */
-  padding: 2rem;
+  padding: 7rem;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
