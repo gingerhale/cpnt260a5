@@ -218,7 +218,8 @@ html{
 }
 
 /*** Sticky Footer ***/
-/* body {
+
+body {
   /* flexbox */
   display: flex;
   flex-direction: column;
@@ -233,7 +234,6 @@ html{
  main {
  flex: auto;
  }
-
 
 .team-page {
   margin: 3rem;
@@ -338,7 +338,7 @@ footer {
 }
 
 .footer-copyright {
-  padding: 5px;
+  padding: 3px;
   display: flex;
   flex-direction: column;
   align-items: center;
