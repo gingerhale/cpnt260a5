@@ -16,7 +16,8 @@ body {
     /* font style */
     font-family: 'Quicksand', sans-serif;
  }
- /* navbar */
+
+ /***NAVBAR***/
  header{
     background-color:#2b1d5a;
 }
@@ -104,6 +105,7 @@ a{
  }
 
  main {
+
   /* size page to center content */
   flex: auto;
   justify-content: center;
@@ -112,43 +114,54 @@ a{
   margin-top: 0;
  }
 
- /* Page heading colours aligment
- and size */
+ /*** PAGE HEADING ***/
 .team-h1 {
   margin: 2rem;
   text-align: center;
   color: #9f97c5;
   font-size: 45px;
 }
-
+/*** CARDS ***/
 .team-gallery {
+
   /* make cards flow in a row */
   display: flex;
   align-items: center;
   flex-direction: row;
   justify-content: center;
   flex-wrap: wrap;
+
+  /* add gap between cards */
   gap: 3rem;
 }
 
 .team-cards {
+  /* specify size of the card
+  and align centered */
   width: 21rem;
   height: 40rem;
   text-align: center;
 
+  /* add border and box shadow */
   border-radius: 5px;
   box-shadow: 4px 4px 10px rgb(0, 0, 0);
+
+  /* card colour */
   background-color: #282b71;
 }
 
 .names {
+  /* make names centered
+  away from margin */
   padding: 20px;
   text-align: center;
+
+  /* space between letters affect */
   letter-spacing: 7px;
+
   font-size: 30px;
   color: #9f97c5;
 }
-  
 
 .team-images {
   margin: 0;
@@ -171,29 +184,39 @@ a{
   padding: 10px;
   margin: 50px;
   border: 5px;
+
+  /* Border rounded and coloured 
+  with double border affect */
   border-style: double;
   border-color: black;
   border-radius: 10px;
 
+  /* put colour inside 
+  clickable button */
   background-color: #452045;
   color: #9f97c5;
 
   text-decoration: none;
 }
+
 .team-btn:hover {
   background-color:#9f97c5;
+  /* hover affect transition
+  timing */
   transition: .7s;  
   color: white;
 }
 
-/* footer */
+/*** FOOTER ***/
 
 footer li {
+  /* navigation list
+  in a row */
   display: inline-block;
   list-style: none;
   margin: 10px;
-  
 }
+
 footer a {
   text-decoration: none;
   color: white;
@@ -202,9 +225,11 @@ footer a {
 footer {
   background-color: #282b71;
   color: #9f97c5;
+  /* text centered in the footer */
   text-align: center;
 }
 
+/* separate box for copyright*/
 .footer-copyright {
   padding: 5px;
   display: flex;
@@ -213,6 +238,7 @@ footer {
   background-color: #9f97c5;
   color: white;
 }
+
 .footer-copyright p {
   margin-top: 10px;
 } 
