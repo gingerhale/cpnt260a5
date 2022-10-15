@@ -43,6 +43,22 @@ Tools:
 Images:
 - Stars - https://pixabay.com/photos/star-trails-astronomy-wallpaper-2234343/
 
+### Samanta's Attributions
+Images:
+- Preet's avatar - Personal https://www.bitmoji.com/
+- Sam's avatar - Personal https://www.bitmoji.com/
+- Haley's avatar - Personal https://www.bitmoji.com/
+- Jian's avatar - Created by, Jian V.
+
+Tools: 
+- Youtube - https://youtu.be/QBpfIbeGzHo
+- https://www.youtube.com/watch?v=ngFZZN9Xt_Y
+- https://www.youtube.com/watch?v=iXSSHlOe47s
+- W3schools - https://www.w3schools.com/howto/howto_css_cards.asp
+
+
+
+
 
 
 
