@@ -138,7 +138,7 @@ a{
 }
 
 .team-cards {
-  width: 20rem;
+  width: 21rem;
   height: 40rem;
   text-align: center;
 
@@ -165,7 +165,7 @@ a{
 }
 
 .team-paragraphs{
-  padding: 10px;
+  padding: 5px;
   margin: 20px 25px 40px 25px;
   font-size: 20px;
   line-height: 30px;
