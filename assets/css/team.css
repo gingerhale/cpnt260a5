@@ -1,0 +1,244 @@
+body {
+  /* flexbox */
+  display: flex;
+  flex-direction: column;
+
+  /* height */
+   min-height: 100vh;
+
+   /* box model */
+   margin:0;
+   /* background */
+
+   background: linear-gradient(190deg, rgb(0, 0, 0) 9%,
+        rgba(28, 4, 63, 0.777) 60%);
+
+    /* font style */
+    font-family: 'Quicksand', sans-serif;
+ }
+
+ /***NAVBAR***/
+ header{
+    background-color:#2b1d5a;
+}
+
+li {
+    list-style-type: none;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.navbar{
+    min-height: 85px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding:0 20px;
+}
+ .nav-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    gap: 60px;
+ }
+
+ .nav-branding{
+    font-size: 3rem;
+ }
+
+ .nav-link{
+    transition: 0.7s ease;
+ }
+
+ .nav-link:hover{
+    color:rgb(32, 218, 184);
+ }
+
+ .hamburger{
+    display: none;
+    cursor: pointer;
+ }
+
+ .bar{
+    display: block;
+
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    
+    background-color: white;
+ }
+
+ @media(max-width:900px){
+    .hamburger{
+        display:block;
+    }
+
+    .nav-menu{
+        position: fixed;
+        flex-direction: column;
+        text-align: center;
+
+        left: -100%;
+        top: 70px;
+        gap: 0;
+        width: 90%;
+       
+        background-color: #2b1d5a;
+        
+        transition: 0.3s;
+    }
+
+    .nav-item{
+        margin: 20px 0;
+    }
+
+    .nav-menu.active{
+        left: 0;
+    }
+ }
+
+ main {
+
+  /* size page to center content */
+  flex: auto;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+  margin-top: 0;
+ }
+
+ /*** PAGE HEADING ***/
+.team-h1 {
+  margin: 2rem;
+  text-align: center;
+  color: #9f97c5;
+  font-size: 45px;
+}
+/*** CARDS ***/
+.team-gallery {
+
+  /* make cards flow in a row */
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  /* add gap between cards */
+  gap: 3rem;
+}
+
+.team-cards {
+  /* specify size of the card
+  and align centered */
+  width: 21rem;
+  height: 40rem;
+  text-align: center;
+
+  /* add border and box shadow */
+  border-radius: 5px;
+  box-shadow: 4px 4px 10px rgb(0, 0, 0);
+
+  /* card colour */
+  background-color: #282b71;
+}
+
+.names {
+  /* make names centered
+  away from margin */
+  padding: 20px;
+  text-align: center;
+
+  /* space between letters affect */
+  letter-spacing: 7px;
+
+  font-size: 30px;
+  color: #9f97c5;
+}
+
+.team-images {
+  margin: 0;
+  width: 100%;
+  height: 20rem;
+  display: block;
+  text-align: center;
+}
+
+.team-paragraphs{
+  padding: 5px;
+  margin: 20px 25px 40px 25px;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  color: white;
+}
+
+.team-btn {
+  padding: 10px;
+  margin: 50px;
+  border: 5px;
+
+  /* Border rounded and coloured 
+  with double border affect */
+  border-style: double;
+  border-color: black;
+  border-radius: 10px;
+
+  /* put colour inside 
+  clickable button */
+  background-color: #452045;
+  color: #9f97c5;
+
+  text-decoration: none;
+}
+
+.team-btn:hover {
+  background-color:#9f97c5;
+  /* hover affect transition
+  timing */
+  transition: .7s;  
+  color: white;
+}
+
+/*** FOOTER ***/
+
+footer li {
+  /* navigation list
+  in a row */
+  display: inline-block;
+  list-style: none;
+  margin: 10px;
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
+}
+
+footer {
+  background-color: #282b71;
+  color: #9f97c5;
+  /* text centered in the footer */
+  text-align: center;
+}
+
+/* separate box for copyright*/
+.footer-copyright {
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #9f97c5;
+  color: white;
+}
+
+.footer-copyright p {
+  margin-top: 10px;
+} 
