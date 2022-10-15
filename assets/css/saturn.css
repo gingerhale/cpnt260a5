@@ -331,7 +331,7 @@ a {
   background-color: #2b1d5a;
   color: white;
   padding: 60px 45px;
-  display: flex:
+  display: flex;
 }
 
 .features-inner {
@@ -381,5 +381,5 @@ footer {
 }
 
 .footer-copyright p {
-  margin-top: 15px;
+  margin-top: 10px;
 }
