@@ -103,8 +103,8 @@ a{
     }
  }
 
- /* Cards */
  main {
+  /* size page to center content */
   flex: auto;
   justify-content: center;
   align-items: center;
@@ -112,23 +112,17 @@ a{
   margin-top: 0;
  }
 
-
-.team-page {
-  margin: 3rem;
-  padding: 0;
-  min-height: 100vh;
-  display: flex;
-        
-}
-
+ /* Page heading colours aligment
+ and size */
 .team-h1 {
-  margin: 4rem;
+  margin: 2rem;
   text-align: center;
   color: #9f97c5;
   font-size: 45px;
 }
 
 .team-gallery {
+  /* make cards flow in a row */
   display: flex;
   align-items: center;
   flex-direction: row;
